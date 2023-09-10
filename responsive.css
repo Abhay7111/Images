@@ -288,6 +288,7 @@
     }
 
     .page2{
+        height: 5vh;
         background-color: transparent;
     }
 }
