@@ -1,14 +1,21 @@
 @media only screen and (max-width:502px) {
+
+    *{
+        padding: 0%;
+        margin: 0%;
+        font-family: 'hacker';
+    }
+
     html,body{
         width: 100vw;
         height: auto;
-        background-color: green;
+        background-color: transparent;
     }
 
     .header{
         background-color: black;
         width: 100%;
-        height: 7%;
+        height: 60px;
         position: fixed;
         overflow: hidden;
         display: flex;
@@ -113,6 +120,108 @@
     }
 
     .main{
-        display: none;
+        width: 100vw;
+        background-color: transparent;
+    }
+
+    .co-main{
+        width: 100%;
+        background-color: rgba(22, 22, 22, 0.925);
+    }
+
+    .mar-6vw{
+        width: 100%;
+        height: 0px;
+    }
+
+    #page1{
+        background-color: transparent;
+        width: 100%;
+    }
+    .main-rap-page1{
+        background-color: transparent;
+        width: 100%;
+        height: 40vh;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-rap-page1>#main-im-i-p1{
+        width: 100%;
+        position: absolute;
+        z-index: 0;
+    }
+    
+    .main-rap-page1>.main-rap-page1-h1{
+        background-color: transparent;
+        width: 90%;
+        height: 20%;
+        position: relative;
+        top: -7vh;
+        padding: 0;
+        z-index: 3;
+    }
+
+    .main-rap-page1>.main-rap-page1-h1>h1{
+        font-size: 4vw;
+        font-weight: 600;
+    }
+
+    .main-rap-page1>.main-rap-page1-h1>p{
+        font-size: 2.5vw;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        background-color: rgba(124, 124, 124, 0.219);
+    }
+
+    .main-rap-page1>.search-box{
+        top: 20vh;
+        width: 80%;
+        height: 4vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0 2vw;
+    }
+
+    .main-rap-page1>.search-box>h2{
+        background-color: transparent;
+        height: 100%;
+        width: 4vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ri-search-line{
+        font-size: 4vw;
+    }
+
+    .main-rap-page1>.search-box>input{
+        background-color: transparent;
+        height: 94%;
+        font-size: 2.5vw;
+    }
+
+    .main-rap-page1>.search-box>.choose{
+        background-color: red;
+        height: 60%;
+        width: 16vw;
+    }
+
+    .main-rap-page1>.search-box>.choose>#select{
+        background-color: aqua;
+        width: 100%;
+        padding: 0;
+        font-size: 2vw;
+    }
+
+    .page2{
+        background-color: transparent;
     }
 }
