@@ -93,10 +93,11 @@
     #main-links{
         text-align: center;
         display: none;
+        background-color: #000;
     }
 
     #main-links>.design-hover-open>.open-ul{
-        background-color: transparent;
+        background-color: #000;
         /* display: block; */
         position: absolute;
         left: -53%;
@@ -141,7 +142,7 @@
     .main-rap-page1{
         background-color: transparent;
         width: 100%;
-        height: 40vh;
+        height: 32vh;
         overflow: hidden;
         display: flex;
         align-items: center;
@@ -209,16 +210,53 @@
     }
 
     .main-rap-page1>.search-box>.choose{
-        background-color: red;
+        background-color: transparent;
         height: 60%;
         width: 16vw;
     }
 
     .main-rap-page1>.search-box>.choose>#select{
-        background-color: aqua;
+        background-color: transparent;
+        border: none;
         width: 100%;
         padding: 0;
         font-size: 2vw;
+    }
+
+    .page1-buttons-box{
+        background-color: transparent;
+        width: 100%;
+        padding: 0%;
+        height: 5vh;
+        box-shadow: 0 0 1px #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 2px;
+        position: relative;
+        top: -0vh;
+    }
+
+    .page1-buttons-box>.page1-buttons{
+        background-color: rgba(58, 58, 58, 0);
+        font-size: 66%;
+        padding: 0.8vh 0.7vw;
+        border-radius: 5px;
+    }
+
+    .page1-images{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 0px;
+    }
+
+    .page1-images>.image{
+        width: 23%;
+        height: 15vh;
     }
 
     .page2{
