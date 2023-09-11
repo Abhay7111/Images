@@ -1,0 +1,47 @@
+#main{
+    width: 100vw;
+    height: auto;
+    padding-top: 4vh;
+}
+
+#page-top{
+    width: 100%;
+    height: 0vh;
+}
+
+.co-main{
+    width: 100%;
+    height: auto;
+    overflow: unset;
+    background-color: red;
+    padding-top: 2%;
+    position: relative;
+}
+
+.co-main>.page1{
+    width: 100%;
+    height: 75vh;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.678);
+    padding-right: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+
+.text{
+    width: 80%;
+    height: 30%;
+    background-color: red;
+    position: absolute;
+    z-index: 4;
+}
+
+.image1{
+    width: 101%;
+    height: 101%;
+    background-color: yellow;
+    position: relative;
+    z-index: 2;
+}
