@@ -4,6 +4,7 @@
     color: #ffffff;
     font-family: hack;
     scroll-behavior: smooth;
+    /* cursor: none; */
 }
 
 html,
