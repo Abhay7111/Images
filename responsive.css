@@ -38,7 +38,7 @@
     nav>.links{
         /* overflow: hidden; */
         background-color: transparent;
-        border: 1px solid #fff;
+        border: 1px solid transparent;
         width: 40px;
         height: 40px;
         display: flex;
