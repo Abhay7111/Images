@@ -70,13 +70,13 @@
 #main>.page2>.img-box-p2{
     width: 96%;
     height: auto;
-    background-color: transparent;
+    background-color: green;
     border-radius: 20px;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 1.2%;
+    padding: 1.2% 0;
 }
 
 #main>.page2>.img-box-p2>.img-box{
@@ -94,5 +94,36 @@
     width: 102%;
 }
 
+
+.contant>.dis{
+    background-color: #0000006b;
+    width: 100%;
+    height: 40%;
+    padding: 3%;
+}
+
+.contant>.dis>p{
+    color: rgba(231, 231, 231, 0.61);
+    font-size: 67%;
+}
+
+.button1>a:hover{
+    animation: scale;
+    animation-duration: 0.4s;
+    animation-iteration-count: 1;
+    transition: all 0.5s;
+}
+
+@keyframes scale {
+    100%{
+        font-size: 1.2rem;
+    }
+}
+
+.button1>a{
+    text-decoration: none;
+    font: 400;
+    font-size: 90%;
+}
 
 }
