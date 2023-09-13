@@ -72,11 +72,11 @@
     nav>.links>ul{
         position: absolute;
         top: 6.7vh;
-        right: 0%;
-        width: 30%;
+        right: 5%;
+        width: 80%;
         height: auto;
         display: flex;
-        padding: 1vh 1vw;
+        padding: 1vh 4vw;
         align-items: center;
         justify-content: center;
         flex-direction: column;
@@ -84,10 +84,11 @@
         box-shadow: 0 0 2px #fff;
         border-radius: 7px;
         gap: 10px;
+        line-height: 30px;
     }
 
     nav>.links>ul>li>a{
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
     #main-links{
@@ -100,12 +101,12 @@
         background-color: #000;
         /* display: block; */
         position: absolute;
-        left: -53%;
-        top: 78%;
+        left: 1%;
+        top: 100%;
         border-radius: 5px;
         border: none;
         box-shadow: 0 0 2px #fff;
-        width: 40%;
+        width: 95.4%;
         text-align: center;
         font-size: 3vw;
         padding: 10px;

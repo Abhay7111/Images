@@ -1,4 +1,7 @@
 @media only screen and (max-width:502px) {
+    html,body{
+        background-color: rgba(36, 36, 36, 0.945);
+    }
     
 .co-main>.page1{
     width: 100%;
@@ -59,28 +62,34 @@
     background: linear-gradient(to left,  rgba(207, 222, 255, 0.623) 0%,rgba(113, 160, 255, 0.644) 24%,rgba(7, 90, 255, 0.603) 51%,rgba(79, 138, 255, 0.527) 79%,rgba(133, 174, 255, 0.644) 100%);
 
 }
-
 #main>.page2{
     width: 100%;
-    height: 100vh;
-    background-color: red;
-    padding: 2%;
+    height: auto;
+    background-color: transparent;
+    padding: 2% 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+    flex-wrap: wrap;
 }
 
 #main>.page2>.img-box-p2{
-    width: 96%;
+    position: relative;
+    top: 0%;
+    width: 46%;
     height: auto;
-    background-color: green;
+    background-color: transparent;
     border-radius: 20px;
     overflow: hidden;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 1.2% 0;
+    align-items:start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0% 3px;
 }
-
 #main>.page2>.img-box-p2>.img-box{
-    width: 40%;
+    width: 100%;
     overflow: hidden;
     height: auto;
     background-color: transparent;
@@ -91,7 +100,7 @@
 }
 
 #main>.page2>.img-box-p2>.img-box>img{
-    width: 102%;
+    width: 100%;
 }
 
 

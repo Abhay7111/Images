@@ -101,7 +101,8 @@ nav>.links>ul>li>ul {
     top: 6.55vh;
     margin-left: -1.2vw;
     background-color: transparent;
-    width: 10vw;
+    width: auto;
+    height: auto;
     padding: 0.6vw;
     border-radius: 10px;
     box-shadow: 0 0 1.5px #fff;
