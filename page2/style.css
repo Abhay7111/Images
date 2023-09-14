@@ -110,6 +110,9 @@
 
 #main>.page2{
     width: 100%;
+    top: 700px;
+    overflow: hidden;
+    position: relative;
     height: auto;
     background-color: transparent;
     padding: 2% 0;

@@ -1,5 +1,5 @@
 gsap.to("#header",{
-    backgroundColor :"#1010107c",
+    backgroundColor :"#000",
     height:"70px",
     duration:0.5,
     scrollTrigger:{
@@ -11,4 +11,19 @@ gsap.to("#header",{
         scrub:2,
         top:"120px",
     },
+})
+
+gsap.to("#page2",{
+    backgroundColor:"rgb(27, 27, 27)",
+    width:"100%",
+    duration:1,
+    top:"0px",
+    scrollTrigger:{
+        trigger:"#page2",
+        scroller:"body",
+        // markers:"true",
+        start:"-1200px",
+        end:"-950px",
+        scrub:2,
+    }
 })
