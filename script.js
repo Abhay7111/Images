@@ -27,3 +27,18 @@ gsap.to("#page2",{
         scrub:2,
     }
 })
+
+
+var h1 = document.querySelector(".text>h1")
+
+h1.addEventListener("click",function(){
+    h1.innerHTML = "Hello every one"
+    // h1.style.color = "red"
+})
+
+var chan = document.querySelector(".text>h1")
+var btn = document.querySelector(".page1-buttons")
+
+btn.addEventListener("click",function(){
+    chan.innerHTML = "Changed"
+})
