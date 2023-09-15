@@ -27,7 +27,7 @@
         top: 103%;
         right: 2%;
         position: absolute;
-        background-color: red;
+        background-color: rgb(54, 54, 54);
         width: auto;
         height: auto;
         border-radius: 20px;
@@ -44,5 +44,23 @@
         background-color: transparent;
         padding: 1px 30px;
         border-radius: 50px;
+    }
+    .coustmise{
+        width: 55vw;
+        height: 55vh;
+        padding: 0%;
+    }
+    .form{
+        justify-content: start;
+        padding: 0%;
+        background-color: red;
+        display: flex;
+        align-items: start;
+    }
+    #cost{
+        padding: 3%;
+        background-color: green;
+        align-items: start;
+        justify-content: start;
     }
 }
