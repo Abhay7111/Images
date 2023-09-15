@@ -53,13 +53,13 @@
     .form{
         justify-content: start;
         padding: 0%;
-        background-color: red;
+        background-color: rgba(255, 0, 0, 0);
         display: flex;
         align-items: start;
     }
     #cost{
         padding: 3%;
-        background-color: green;
+        background-color: rgba(110, 130, 110, 0);
         align-items: start;
         justify-content: start;
     }
