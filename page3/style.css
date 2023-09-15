@@ -4,6 +4,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    z-index: 1;
 }
 
 html,body{
@@ -27,7 +28,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding: 0 40px;
-    z-index: 99;
+    z-index: 98;
 }
 
 nav>.logo{
@@ -96,24 +97,58 @@ nav>.buttons>button{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    overflow: hidden;
+    overflow-y: scroll;
+    scroll-snap-align: start;
+    flex-direction: column;
+}
+
+#cost::-webkit-scrollbar {
+    display: none;
+  }
+
+#cost>ul{
+    display: flex;
+    align-items: center;
+    justify-content: start;
 }
 
 #cost>li{
-    position: absolute;
-    top: 1%;
-    left: 2%;
+    position: relative;
+    top: 13.5%;
+    margin-bottom: 5px;
+    width: 100%;
+    /* left: 2%; */
     border-radius: 10px;
     padding: 5px;
-    background-color: rgba(51, 51, 51, 0.818);
+    background-color: rgba(79, 79, 79, 0.591);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 7px;
+}
+
+.buttons-in-bgclr{
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 7vh;
+    flex-wrap: wrap;
+    gap: 5px;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.buttons-in-bgclr::-webkit-scrollbar{
+    display:none;
 }
 
 #button1{
-    width: auto;
+    width: 20px;
     padding: 10px;
     height: 20px;
     display: flex;
@@ -125,7 +160,7 @@ nav>.buttons>button{
 }
 
 #button2{
-    width: auto;
+    width: 20px;
     padding: 10px;
     height: 20px;
     display: flex;
@@ -137,18 +172,18 @@ nav>.buttons>button{
     border: 1px solid #fff;
 }
 #button3{
-    width: auto;
+    width: 20px;
     padding: 10px;
     height: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.266);
+    background-color: rgb(255, 255, 255);
     border-radius: 50px;
     cursor: pointer;
 }
 #button4{
-    width: auto;
+    width: 20px;
     padding: 10px;
     height: 20px;
     display: flex;
@@ -170,7 +205,7 @@ nav>.buttons>button{
     display: flex;
     align-items: start;
     justify-content: center;
-    background-color: transparent;
+    background-color: rgb(31, 31, 31);
     width: 20vw;
     height: 60vh;
 }
@@ -211,6 +246,7 @@ nav>.buttons>button{
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 3;
 }
 
 .cls1>p{
@@ -223,12 +259,12 @@ span{
     font-weight: 700;
     color: #d4d4d4c6;
 }
-
+/* 
 #cost>li:nth-child(3){
     position: absolute;
     top: 53.5%;
     background-color: #464633;
-}
+} */
 
 .position1{
     width: 20px;
@@ -248,5 +284,4 @@ span{
 .pages{
     width: 100%;
     height: 130vh;
-
 }
