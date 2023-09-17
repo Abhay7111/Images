@@ -297,6 +297,14 @@ span{
     border-radius: 50%;
     border: none;
 }
+
+.position3{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    background-color: #868686;
+}
 .position2{
     width: 20px;
     height: 20px;
