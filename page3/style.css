@@ -88,8 +88,7 @@ nav>.buttons>button{
 
 #cost{
     position: absolute;
-    background-color: transparent;
-    padding: 5px 20px;
+    padding: 5px 5px;
     border-radius: 10px;
     border: 2px solid #fff;
     display: flex;
@@ -100,6 +99,42 @@ nav>.buttons>button{
     overflow-y: scroll;
     scroll-snap-align: start;
     flex-direction: column;
+}
+
+.nav-border{
+    background-color: #3C3C3C;
+    width: 99%;
+    height: auto;
+    position: relative;
+    top: 12.83%;
+    border-radius: 10px;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: row;
+    gap: 7px;
+    padding: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+    flex-wrap: wrap;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+
+.nav-border::-webkit-scrollbar{
+    display: none;
+}
+
+.nav-border>span{
+    position: absolute;
+    top: 10px;
+    width: 80%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 #cost::-webkit-scrollbar {
@@ -129,7 +164,7 @@ nav>.buttons>button{
     align-items: start;
     justify-content: center;
     flex-direction: column;
-    height: 7vh;
+    height: 55px;
     flex-wrap: wrap;
     gap: 5px;
     overflow: hidden;
@@ -159,10 +194,10 @@ nav>.buttons>button{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.71);
+    background-color: rgb(255, 255, 255);
     border-radius: 50px;
     cursor: pointer;
-    border: 1px solid #fff;
+    border: 1px solid #ffffff;
 }
 #button3{
     width: 20px;
@@ -182,10 +217,10 @@ nav>.buttons>button{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.71);
+    background-color: rgba(109, 109, 109, 0.336);
     border-radius: 50px;
     cursor: pointer;
-    border: 1px solid rgba(255, 255, 255, 0.429);
+    border: 1px solid rgba(255, 255, 255, 0);
 
 }
 
@@ -221,6 +256,8 @@ nav>.buttons>button{
     position: relative;
     top: 0%;
     border-radius: 10px;
+    flex-wrap: wrap;
+    overflow-x: scroll;
 }
 
 .coustmise{
@@ -252,17 +289,11 @@ span{
     font-weight: 700;
     color: #d4d4d4c6;
 }
-/* 
-#cost>li:nth-child(3){
-    position: absolute;
-    top: 53.5%;
-    background-color: #464633;
-} */
+
 
 .position1{
     width: 20px;
     height: 20px;
-    background-color: rgba(8, 8, 8, 0.725);
     border-radius: 50%;
     border: none;
 }
@@ -272,6 +303,34 @@ span{
     background-color: rgba(8, 8, 8, 0.725);
     border-radius: 50%;
     border: none;
+}
+
+
+#cost>:nth-last-child(1)>.nav-textcolor-button{
+    /* background-color: rgb(67, 77, 67); */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 75%;
+    gap: 7px;
+    padding: 2px;
+    /* position: absolute; */
+    /* top: 70%; */
+}
+#cost>:nth-last-child(1){
+    width: 45%;
+    height: 58%;
+    margin-left: 5px;
+    /* background-color: red; */
+    overflow: hidden;
+    justify-content: start;
+}
+
+#cost>:nth-last-child(2){
+    width: 45%;
 }
 
 .pages{
