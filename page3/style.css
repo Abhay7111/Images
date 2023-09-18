@@ -22,6 +22,8 @@ html,body{
 }
 
 nav{
+    position: absolute;
+    top: 0%;
     width: 100%;
     height: 8vh;
     display: flex;
@@ -236,6 +238,7 @@ nav>.buttons>button{
     background-color: rgb(31, 31, 31);
     width: 20vw;
     height: 60vh;
+    z-index: 99;
 }
 
 .form{
@@ -342,6 +345,178 @@ span{
 }
 
 .pages{
+    width: auto;
+    height: auto;
+}
+
+#page1{
     width: 100%;
-    height: 130vh;
+    height: 100vh;
+    background-color: transparent;
+    padding-top: 9vh;
+    display: flex;
+}
+
+.l-text{
+    width: 55%;
+    height: 70%;
+    overflow: hidden;
+    margin-left: 4vw;
+    border-radius: 15px;
+    margin-top: 5vh;
+    position: relative;
+}
+
+.l-text>.boimg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    /* object-fit: cover; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.l-text>.boimg>img{
+    width: 110%;
+    height: auto;
+    opacity: 80%;
+    filter: blur(3px);
+}
+
+.fotext{
+    padding: 10px;
+    /* background-color: red; */
+    height: 100%;
+    position: relative;
+    top: 0%;
+    width: 100%;
+}
+
+.fotext>h1{
+    /* background-color: green; */
+    width: auto;
+    height: auto;
+    font-size: 6.4vw;
+    font-weight: 600;
+    font-family: 'Alumni Sans Inline One';
+    font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+    top: 4%;
+    left: 3vw;
+    text-shadow: 0 0 4px #000;
+}
+
+.fotext>h1>p{
+    /* background-color: yellow; */
+    font-weight: 600;
+    font-size: 1.5vw;
+    top: -2vh;
+    left: -2.3vw;
+    color: #fff;
+    text-shadow: 0 0 3px #000;
+    position: absolute;
+    transform: rotate(-15deg);
+    animation: op;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.fotext>p{
+    /* color: red; */
+    width: 100%;
+    /* background-color: rgb(43, 23, 23); */
+    padding: 2vh 4vw;
+    text-shadow: 0 0 2px #000;
+}
+
+.bobuttons{
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    position: absolute;
+    bottom: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+
+.bobuttons>button{
+    width: 30%;
+    height: 5vh;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    font-size: 0.98vw;
+    color: #000000d8;
+    font-weight: 600;
+    background-color: #d0d0d04d;
+    box-shadow: 2px 2px 2px #000;
+    transition: all ease 0.5s;
+}
+
+.bobuttons>button:active{
+    box-shadow: 0 0 0 transparent;
+    position: relative;
+    top: 2px;
+    left: 2px;
+    transition: all ease 0.5s;
+}
+
+.bobuttons>button:hover{
+    background-color: #ffffffb7;
+    color: #000;
+}
+
+.r-pngs{
+    width: 39%;
+    position: relative;
+    left: 1%;
+    top: 5.6%;
+    border-radius: 15px;
+    /* background-color: red; */
+    height: 70%;
+    /* overflow: hidden; */
+}
+
+.r-pngs>img{
+    height: 104%;
+    position: relative;
+    left: -5%;
+    /* mix-blend-mode: multiply;
+    filter: invert(100%); */
+    z-index: 0;
+}
+
+.customize-web{
+    position: absolute;
+    background-color: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    z-index: 99;
+    right: 2%;
+    bottom: 2%;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 98;
+}
+
+.customize-web>a{
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.2em;
 }

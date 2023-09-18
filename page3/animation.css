@@ -1,0 +1,6 @@
+@keyframes op{
+    50%{
+        opacity: 70%;
+        color: rgb(191, 191, 191);
+    }
+}

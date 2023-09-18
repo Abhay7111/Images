@@ -240,7 +240,7 @@ cls.addEventListener("click",function(){
 })
 
 relative.addEventListener("click",function(){
-    nvbg.style.position = "relative"
+    nvbg.style.position = "absolute"
 })
 
 fixed.addEventListener("click",function(){
