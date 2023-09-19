@@ -65,6 +65,7 @@
         display: block;
         font-size: 8vw;
         /* background-color: red; */
+        transition: all 1.8s;
     }
     
     .menu2{
@@ -73,6 +74,7 @@
         top: 18%;
         font-size: 8vw;
         /* background-color: blue; */
+        transition: all 1.8s;
     }
     
 
