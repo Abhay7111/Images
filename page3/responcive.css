@@ -10,6 +10,10 @@
         background-color: transparent;
     }
 
+    .main{
+        background-color: rgb(151, 151, 151);
+    }
+
     nav{
         width: 100%;
         position: relative;
@@ -89,6 +93,16 @@
         background-color: rgba(110, 130, 110, 0);
         align-items: start;
         justify-content: start;
+    }
+    .customize-web{
+        /* background-color: red; */
+        width: 60px;
+        height: 60px;
+        border: 1px solid #fff;
+    }
+    .customize-web>a{
+        width: 100%;
+        font-size: 2.2vw;
     }
     .pages{
         width: 100vw;
