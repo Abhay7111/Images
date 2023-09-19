@@ -76,6 +76,8 @@ menu.addEventListener("click",function(){
 
 menu2.addEventListener("click",function(){
     links.style.display = "none"
+    menu.style.display = "block"
+    menu2.style.display = "none"
 },2000)
 
 var cls = document.querySelector(".cls1")

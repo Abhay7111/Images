@@ -165,6 +165,6 @@
         top: -12%;
     }
     .r-pngs>img{
-        height: 390px;
+        width: 100%;
     }
 }
