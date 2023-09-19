@@ -344,6 +344,10 @@ span{
     width: 45%;
 }
 
+.menu,.menu2{
+    display: none;
+}
+
 .pages{
     width: auto;
     height: auto;

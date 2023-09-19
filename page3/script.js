@@ -63,6 +63,20 @@ var colorbtn18 = document.querySelector("#colorbutton18")
 var colorbtn19 = document.querySelector("#colorbutton19")
 var colorbtn20 = document.querySelector("#colorbutton20")
 
+var menu = document.querySelector("#menu")
+var menu2 = document.querySelector("#menu2")
+var links = document.querySelector("#links")
+
+
+menu.addEventListener("click",function(){
+    links.style.display = "block"
+    menu.style.display = "none"
+    menu2.style.display = "block"
+},2000)
+
+menu2.addEventListener("click",function(){
+    links.style.display = "none"
+},2000)
 
 var cls = document.querySelector(".cls1")
 var relative = document.querySelector(".position3")
