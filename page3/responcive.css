@@ -32,7 +32,8 @@
         right: 2%;
         position: absolute;
         background-color: rgb(54, 54, 54);
-        width: auto;
+        width: 96%;
+        line-height: 40px;
         height: auto;
         border-radius: 20px;
         padding: 5px;
@@ -41,13 +42,22 @@
         display: flex;
         align-items: start;
         flex-direction: column;
-        gap: 4px;
+        gap: 10px;
     }
 
     .links>ul>li{
         background-color: transparent;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         padding: 1px 30px;
         border-radius: 50px;
+    }
+
+    .links>ul>li:hover{
+        background-color: rgba(87, 87, 87, 0.607);
+        border-radius: 0 0 50px 50px;
     }
 
     nav>.links{
