@@ -120,6 +120,25 @@
         width: 100%;
         font-size: 2.2vw;
     }
+
+    .page-customize{
+        display: block;
+        width: 50%;
+        height: 44%;
+    }
+
+    .page-customize>h1{
+        width: 100%;
+        background-color: transparent;
+        font-size: 160%;
+        top: 5%;
+    }
+    .page-customize>.day-night{
+        top: 6%;
+        position: relative;
+        background-color: transparent;
+    }
+
     .pages{
         width: 100vw;
         height: 100vh;
