@@ -1,3 +1,4 @@
+var main = document.querySelector("#main")
 var home = document.querySelector("#home")
 var homea = document.querySelector("#homea")
 var about = document.querySelector("#about")
@@ -67,6 +68,7 @@ var colorbtn20 = document.querySelector("#colorbutton20")
 var menu = document.querySelector("#menu")
 var menu2 = document.querySelector("#menu2")
 var links = document.querySelector("#links")
+
 
 
 menu.addEventListener("click",function(){
@@ -364,4 +366,29 @@ colorbtn19.addEventListener("click",function(){
 colorbtn20.addEventListener("click",function(){
     nvbg.style.color = "rgb(119, 189, 79)"
     homea.style.color = "rgb(119, 189, 79)"
+})
+
+//day-night
+
+var pageday = document.querySelector("#day")
+var pagenight = document.querySelector("#night")
+var pagecls = document.querySelector(".page-cls")
+var customizep = document.querySelector(".page-customize")
+var openpc = document.querySelector("#page-customize-open")
+
+pageday.style.backgroundColor = "#dadada"
+pagenight.style.backgroundColor = "#402"
+pageday.addEventListener("click",function(){
+    main.style.backgroundColor = "#fff"
+})
+pagenight.addEventListener("click",function(){
+    main.style.backgroundColor = "#000"
+})
+
+pagecls.addEventListener("click",function(){
+    customizep.style.display = "none"
+})
+
+openpc.addEventListener("click",function(){
+    customizep.style.display = "block"
 })

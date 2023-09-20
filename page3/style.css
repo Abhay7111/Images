@@ -353,6 +353,76 @@ span{
     display: none;
 }
 
+.page-customize{
+    position: absolute;
+    bottom: 1.5%;
+    right: 1.2%;
+    width: 25%;
+    height: 70%;
+    background-color: rgb(69, 69, 69);
+    z-index: 99;
+    border-radius: 20px;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: scroll;
+    display: none;
+}
+
+.page-customize::-webkit-scrollbar{
+    display: none;
+}
+
+.page-customize>h1{
+    width: 100%;
+    height: auto;
+    /* background-color: #000; */
+    box-shadow: 0 1px 0 #fff;
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 270%;
+}
+
+.page-cls{
+    width: 25px;
+    height: 25px;
+    background-color: #000;
+    position: absolute;
+    right: 2.5%;
+    top: 2.5%;
+    border-radius: 50%;
+}
+
+.day-night{
+    width: 100%;
+    height: 5%;
+    position: relative;
+    bottom: 5px;
+    border-radius: 50px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#day{
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+#night{
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
 .pages{
     width: auto;
     height: auto;
@@ -361,7 +431,7 @@ span{
 #page1{
     width: 100%;
     height: 100vh;
-    background-color: rgb(151, 151, 151);
+    /* background-color: rgb(151, 151, 151); */
     padding-top: 9vh;
     display: flex;
 }
