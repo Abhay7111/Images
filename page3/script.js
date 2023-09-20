@@ -1,4 +1,5 @@
 var home = document.querySelector("#home")
+var homea = document.querySelector("#homea")
 var about = document.querySelector("#about")
 var section = document.querySelector("#section")
 var downloade = document.querySelector("#downloade")
@@ -267,80 +268,100 @@ fixed.addEventListener("click",function(){
 
 colorbtn1.addEventListener("click",function(){
     nvbg.style.color = "#000"
+    homea.style.color = "#000"
 })
 
 colorbtn2.addEventListener("click",function(){
     nvbg.style.color = "#fff"
+    homea.style.color = "#fff"
 })
 
 colorbtn3.addEventListener("click",function(){
     nvbg.style.color = "#F39F5A"
+    homea.style.color = "#F39F5A"
 })
 
 colorbtn4.addEventListener("click",function(){
     nvbg.style.color = "#97FFF4"
+    homea.style.color = "#97FFF4"
 })
 
 colorbtn5.addEventListener("click",function(){
     nvbg.style.color = "#451952"
+    homea.style.color = "#451952"
 })
 
 colorbtn6.addEventListener("click",function(){
     nvbg.style.color = "#AE445A"
+    homea.style.color = "#AE445A"
 })
 
 colorbtn7.addEventListener("click",function(){
     nvbg.style.color = "#793FDF"
+    homea.style.color = "#793FDF"
 })
 
 colorbtn8.addEventListener("click",function(){
     nvbg.style.color = "#7091F5"
+    homea.style.color = "#7091F5"
 })
 
 colorbtn9.addEventListener("click",function(){
     nvbg.style.color = "#071952"
+    homea.style.color = "#071952"
 })
 
 colorbtn10.addEventListener("click",function(){
     nvbg.style.color = "#451952"
+    homea.style.color = "#451952"
 })
 
 colorbtn11.addEventListener("click",function(){
     nvbg.style.color = "#662549"
+    homea.style.color = "#662549"
 })
 
 colorbtn12.addEventListener("click",function(){
     nvbg.style.color = "#3b64df"
+    homea.style.color = "#3b64df"
 })
 
 colorbtn13.addEventListener("click",function(){
     nvbg.style.color = "rgb(31, 206, 118)"
+    homea.style.color = "rgb(31, 206, 118)"
 })
 
 colorbtn14.addEventListener("click",function(){
     nvbg.style.color = "rgb(172, 172, 72)"
+    homea.style.color = "rgb(172, 172, 72)"
 })
 
 colorbtn15.addEventListener("click",function(){
     nvbg.style.color = "rgb(243, 166, 24)"
+    homea.style.color = "rgb(243, 166, 24)"
 })
 
 colorbtn16.addEventListener("click",function(){
     nvbg.style.color = "rgb(45, 201, 201)"
+    homea.style.color = "rgb(45, 201, 201)"
 })
 
 colorbtn17.addEventListener("click",function(){
     nvbg.style.color = "rgb(169, 50, 206)"
+    homea.style.color = "rgb(169, 50, 206)"
 })
 
 colorbtn18.addEventListener("click",function(){
     nvbg.style.color = "rgb(52, 115, 173)"
+    homea.style.color = "rgb(52, 115, 173)"
 })
 
 colorbtn19.addEventListener("click",function(){
     nvbg.style.color = "rgb(255, 0, 76)"
+    homea.style.color = "rgb(255, 0, 76)"
 })
 
 colorbtn20.addEventListener("click",function(){
     nvbg.style.color = "rgb(119, 189, 79)"
+    homea.style.color = "rgb(119, 189, 79)"
 })
