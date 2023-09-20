@@ -241,6 +241,11 @@ nav>.buttons>button{
     z-index: 99;
 }
 
+#home>a{
+    text-decoration: none;
+    color:#fff;
+}
+
 .form{
     position: relative;
     background-color: transparent;
