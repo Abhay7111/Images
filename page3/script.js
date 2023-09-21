@@ -69,7 +69,7 @@ var menu = document.querySelector("#menu")
 var menu2 = document.querySelector("#menu2")
 var links = document.querySelector("#links")
 
-
+// for menu in nav
 
 menu.addEventListener("click",function(){
     links.style.display = "block"
@@ -266,7 +266,7 @@ fixed.addEventListener("click",function(){
     nvbg.style.position = "fixed"
 })
 
-//this is color button
+//this is color button for nav
 
 colorbtn1.addEventListener("click",function(){
     nvbg.style.color = "#000"
@@ -368,7 +368,7 @@ colorbtn20.addEventListener("click",function(){
     homea.style.color = "rgb(119, 189, 79)"
 })
 
-//day-night
+//day-night for page
 
 var pageday = document.querySelector("#day")
 var pagenight = document.querySelector("#night")
@@ -379,7 +379,7 @@ var openpc = document.querySelector("#page-customize-open")
 pageday.style.backgroundColor = "#dadada"
 pagenight.style.backgroundColor = "#402"
 pageday.addEventListener("click",function(){
-    main.style.backgroundColor = "#fff"
+    main.style.backgroundColor = "#cfcfcfd1"
 })
 pagenight.addEventListener("click",function(){
     main.style.backgroundColor = "#000"
@@ -391,4 +391,8 @@ pagecls.addEventListener("click",function(){
 
 openpc.addEventListener("click",function(){
     customizep.style.display = "block"
+})
+
+pageday.addEventListener("click",function(){
+    nvbg.style.backgroundColor = "#000"
 })
