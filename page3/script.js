@@ -1,3 +1,4 @@
+var logo1 = document.querySelector("#logo-1")
 var main = document.querySelector("#main")
 var home = document.querySelector("#home")
 var homea = document.querySelector("#homea")
@@ -376,8 +377,6 @@ var pagecls = document.querySelector(".page-cls")
 var customizep = document.querySelector(".page-customize")
 var openpc = document.querySelector("#page-customize-open")
 
-pageday.style.backgroundColor = "#dadada"
-pagenight.style.backgroundColor = "#402"
 pageday.addEventListener("click",function(){
     main.style.backgroundColor = "#cfcfcfd1"
 })
@@ -395,4 +394,17 @@ openpc.addEventListener("click",function(){
 
 pageday.addEventListener("click",function(){
     nvbg.style.backgroundColor = "#000"
+    homea.style.color = "#fff"
+    section.style.color = "#fff"
+    about.style.color = "#fff"
+    logo1.style.color = "#fff"
+    downloade.style.color = "#fff"
+})
+pagenight.addEventListener("click",function(){
+    nvbg.style.backgroundColor = "#fff"
+    homea.style.color = "#000"
+    section.style.color = "#000"
+    about.style.color = "#000"
+    logo1.style.color = "#000"
+    downloade.style.color = "#000"
 })
