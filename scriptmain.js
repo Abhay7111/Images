@@ -29,10 +29,9 @@ gsap.to("#page2",{
 })
 
 
-var h1 = document.querySelector(".text>h1")
-
+var h1 = document.getElementById("page1-h1")
 h1.addEventListener("click",function(){
-    h1.innerHTML = "Hello every one"
+    h1.innerHTML = "Stunning royalty-free images & Customise webpage"
     // h1.style.color = "red"
 })
 
@@ -51,3 +50,8 @@ navclick.addEventListener("click",function(){
     openul.style.display = "block"
 })
 
+var close1 = document.getElementById("close")
+var close = document.getElementsByClassName("ri-close-fill")
+close.addEventListener("click",function(){
+close1.style.display = "none"
+})
