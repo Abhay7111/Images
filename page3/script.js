@@ -66,6 +66,10 @@ var colorbtn18 = document.querySelector("#colorbutton18")
 var colorbtn19 = document.querySelector("#colorbutton19")
 var colorbtn20 = document.querySelector("#colorbutton20")
 
+var link = document.querySelector("#downloade")
+var link2 = document.querySelector("#section")
+var link3 = document.querySelector("#about")
+
 var menu = document.querySelector("#menu")
 var menu2 = document.querySelector("#menu2")
 var links = document.querySelector("#links")
@@ -272,101 +276,181 @@ fixed.addEventListener("click",function(){
 colorbtn1.addEventListener("click",function(){
     nvbg.style.color = "#000"
     homea.style.color = "#000"
+    link.style.color = "#000"
+    link2.style.color = "#000"
+    link3.style.color = "#000"
+    logo1.style.color = "#000"
 })
 
 colorbtn2.addEventListener("click",function(){
     nvbg.style.color = "#fff"
     homea.style.color = "#fff"
+    link.style.color = "#fff"
+    link2.style.color = "#fff"
+    link3.style.color = "#fff"
+    logo1.style.color = "#fff"
 })
 
 colorbtn3.addEventListener("click",function(){
     nvbg.style.color = "#F39F5A"
     homea.style.color = "#F39F5A"
+    link.style.color = "#F39F5A"
+    link2.style.color = "#F39F5A"
+    link3.style.color = "#F39F5A"
+    logo1.style.color = "#F39F5A"
 })
 
 colorbtn4.addEventListener("click",function(){
     nvbg.style.color = "#97FFF4"
     homea.style.color = "#97FFF4"
+    link.style.color = "#97FFF4"
+    link2.style.color = "#97FFF4"
+    link3.style.color = "#97FFF4"
+    logo1.style.color = "#97FFF4"
 })
 
 colorbtn5.addEventListener("click",function(){
     nvbg.style.color = "#451952"
     homea.style.color = "#451952"
+    link.style.color = "#451952"
+    link2.style.color = "#451952"
+    link3.style.color = "#451952"
+    logo1.style.color = "#451952"
 })
 
 colorbtn6.addEventListener("click",function(){
     nvbg.style.color = "#AE445A"
     homea.style.color = "#AE445A"
+    link.style.color = "#AE445A"
+    link2.style.color = "#AE445A"
+    link3.style.color = "#AE445A"
+    logo1.style.color = "#AE445A"
 })
 
 colorbtn7.addEventListener("click",function(){
     nvbg.style.color = "#793FDF"
     homea.style.color = "#793FDF"
+    link.style.color = "#793FDF"
+    link2.style.color = "#793FDF"
+    link3.style.color = "#793FDF"
+    logo1.style.color = "#793FDF"
 })
 
 colorbtn8.addEventListener("click",function(){
     nvbg.style.color = "#7091F5"
     homea.style.color = "#7091F5"
+    link.style.color = "#7091F5"
+    link2.style.color = "#7091F5"
+    link3.style.color = "#7091F5"
+    logo1.style.color = "#7091F5"
 })
 
 colorbtn9.addEventListener("click",function(){
     nvbg.style.color = "#071952"
     homea.style.color = "#071952"
+    link.style.color = "#071952"
+    link2.style.color = "#071952"
+    link3.style.color = "#071952"
+    logo1.style.color = "#071952"
 })
 
 colorbtn10.addEventListener("click",function(){
     nvbg.style.color = "#451952"
     homea.style.color = "#451952"
+    link.style.color = "#451952"
+    link2.style.color = "#451952"
+    link3.style.color = "#451952"
+    logo1.style.color = "#451952"
 })
 
 colorbtn11.addEventListener("click",function(){
     nvbg.style.color = "#662549"
     homea.style.color = "#662549"
+    link.style.color = "#662549"
+    link2.style.color = "#662549"
+    link3.style.color = "#662549"
+    logo1.style.color = "#662549"
 })
 
 colorbtn12.addEventListener("click",function(){
     nvbg.style.color = "#3b64df"
     homea.style.color = "#3b64df"
+    link.style.color = "#3b64df"
+    link2.style.color = "#3b64df"
+    link3.style.color = "#3b64df"
+    logo1.style.color = "#3b64df"
 })
 
 colorbtn13.addEventListener("click",function(){
     nvbg.style.color = "rgb(31, 206, 118)"
     homea.style.color = "rgb(31, 206, 118)"
+    link.style.color = "rgb(31, 206, 118)"
+    link2.style.color = "rgb(31, 206, 118)"
+    link3.style.color = "rgb(31, 206, 118)"
+    logo1.style.color = "rgb(31, 206, 118)"
 })
 
 colorbtn14.addEventListener("click",function(){
     nvbg.style.color = "rgb(172, 172, 72)"
     homea.style.color = "rgb(172, 172, 72)"
+    link.style.color = "rgb(172, 172, 72)"
+    link2.style.color = "rgb(172, 172, 72)"
+    link3.style.color = "rgb(172, 172, 72)"
+    logo1.style.color = "rgb(172, 172, 72)"
 })
 
 colorbtn15.addEventListener("click",function(){
     nvbg.style.color = "rgb(243, 166, 24)"
     homea.style.color = "rgb(243, 166, 24)"
+    link.style.color = "rgb(243, 166, 24)"
+    link2.style.color = "rgb(243, 166, 24)"
+    link3.style.color = "rgb(243, 166, 24)"
+    logo1.style.color = "rgb(243, 166, 24)"
 })
 
 colorbtn16.addEventListener("click",function(){
     nvbg.style.color = "rgb(45, 201, 201)"
     homea.style.color = "rgb(45, 201, 201)"
+    link.style.color = "rgb(45, 201, 201)"
+    link2.style.color = "rgb(45, 201, 201)"
+    link3.style.color = "rgb(45, 201, 201)"
+    logo1.style.color = "rgb(45, 201, 201)"
 })
 
 colorbtn17.addEventListener("click",function(){
     nvbg.style.color = "rgb(169, 50, 206)"
     homea.style.color = "rgb(169, 50, 206)"
+    link.style.color = "rgb(169, 50, 206)"
+    link2.style.color = "rgb(169, 50, 206)"
+    link3.style.color = "rgb(169, 50, 206)"
+    logo1.style.color = "rgb(169, 50, 206)"
 })
 
 colorbtn18.addEventListener("click",function(){
     nvbg.style.color = "rgb(52, 115, 173)"
     homea.style.color = "rgb(52, 115, 173)"
+    link.style.color = "rgb(52, 115, 173)"
+    link2.style.color = "rgb(52, 115, 173)"
+    link3.style.color = "rgb(52, 115, 173)"
+    logo1.style.color = "rgb(52, 115, 173)"
 })
 
 colorbtn19.addEventListener("click",function(){
     nvbg.style.color = "rgb(255, 0, 76)"
     homea.style.color = "rgb(255, 0, 76)"
+    link.style.color = "rgb(255, 0, 76)"
+    link2.style.color = "rgb(255, 0, 76)"
+    link3.style.color = "rgb(255, 0, 76)"
+    logo1.style.color = "rgb(255, 0, 76)"
 })
 
 colorbtn20.addEventListener("click",function(){
     nvbg.style.color = "rgb(119, 189, 79)"
     homea.style.color = "rgb(119, 189, 79)"
+    link.style.color = "rgb(119, 189, 79)"
+    link2.style.color = "rgb(119, 189, 79)"
+    link3.style.color = "rgb(119, 189, 79)"
+    logo1.style.color = "rgb(119, 189, 79)"
 })
 
 //day-night for page

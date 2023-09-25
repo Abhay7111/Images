@@ -49,9 +49,3 @@ var openul = document.querySelector(".open-ul")
 navclick.addEventListener("click",function(){
     openul.style.display = "block"
 })
-
-var close1 = document.getElementById("close")
-var close = document.getElementsByClassName("ri-close-fill")
-close.addEventListener("click",function(){
-close1.style.display = "none"
-})

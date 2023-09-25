@@ -5,6 +5,7 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     z-index: 1;
+    color: #4b527ed2;
 }
 
 html,body{
@@ -18,7 +19,7 @@ html,body{
 .main{
     width: 100%;
     height: auto;
-    background-color: rgb(135, 135, 72);
+    background-color: #E5C3A6;
 }
 
 nav{
@@ -66,14 +67,17 @@ nav>.links>ul{
 }
 
 nav>.links>ul>li{
-    font-size: 1.4rem;
-    font-weight: 600;
+    font-size: 1.16rem;
+    font-weight: 500;
     cursor: pointer;
 }
 
 nav>.buttons{
     background-color: transparent;
     width: 15vw;
+    gap: 20px;
+    position: relative;
+    left: -20px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -81,11 +85,18 @@ nav>.buttons{
 }
 
 nav>.buttons>button{
+    height: 30px;
     border-radius: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 5% 15%;
-    font-size: 1.1rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: rgba(80, 80, 80, 0.192);
     border: none;
+    color: #fff;
 }
 
 #cost{
@@ -243,7 +254,6 @@ nav>.buttons>button{
 
 #home>a{
     text-decoration: none;
-    color:#fff;
 }
 
 .form{
@@ -385,12 +395,13 @@ span{
     align-items: center;
     justify-content: center;
     font-size: 270%;
+    color: #94A684;
 }
 
 .page-cls{
     width: 25px;
     height: 25px;
-    background-color: transparent;
+    background-color: rgba(114, 114, 114, 0);
     position: absolute;
     right: 2.5%;
     top: 2.5%;
@@ -402,18 +413,19 @@ span{
 .page-cls>#close{
     font-size: 25px;
     font-weight: 100;
+    color: #FFBB5C;
 }
 
 .day-night{
     width: 100%;
-    height: 5%;
+    height: 7%;
     position: relative;
     bottom: 5px;
     border-radius: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 25px;
 }
 
 #day{
@@ -428,7 +440,7 @@ span{
 
 #day>.ri-sun-fill{
     color: #fff;
-    font-size: 1.9em;
+    font-size: 1.4em;
     text-shadow: 0 0 17px #fff;
 }
 #night{
@@ -442,7 +454,7 @@ span{
 
 #night>.ri-moon-fill{
     color: #000;
-    font-size: 1.9em;
+    font-size: 1.4em;
     text-shadow: 0 0 10px #000;
 }
 
@@ -462,13 +474,14 @@ span{
 .page1-l>h4{
     font-size: 1.5rem;
     font-weight: 500;
+    color: #AEC3AE;
 }
 
 .page1-l>p{
     font-size: 1em;
     margin-top: 13px;
     margin-left: 8px;
-    color: #000;
+    color: #a0a0a096;
     font-weight: 600;
 }
 
@@ -486,7 +499,8 @@ span{
 .page-cust{
     width: 20px;
     height: 20px;
-    background-color: red;
+    background-color: transparent;
+    border: 1px solid #fff;
     border-radius: 50%;
 }
 
@@ -525,15 +539,14 @@ span{
 }
 
 .l-text>.boimg>img{
-    width: 110%;
-    height: auto;
+    width: auto;
+    height: 130%;
     opacity: 80%;
-    filter: blur(3px);
+    filter: blur(1px);
 }
 
 .fotext{
     padding: 10px;
-    /* background-color: red; */
     height: 100%;
     position: relative;
     top: 0%;
@@ -541,7 +554,6 @@ span{
 }
 
 .fotext>h1{
-    /* background-color: green; */
     width: auto;
     height: auto;
     font-size: 6.4vw;
@@ -551,7 +563,7 @@ span{
     position: relative;
     top: 4%;
     left: 3vw;
-    text-shadow: 0 0 4px #000;
+    text-shadow: 0 0 3px #ffffff6b;
 }
 
 .fotext>h1>p{
@@ -561,7 +573,7 @@ span{
     top: -2vh;
     left: -2.3vw;
     color: #fff;
-    text-shadow: 0 0 3px #000;
+    text-shadow: 0 0 3px #afafafcb;
     position: absolute;
     transform: rotate(-15deg);
     animation: op;
@@ -570,11 +582,15 @@ span{
 }
 
 .fotext>p{
-    /* color: red; */
     width: 100%;
-    /* background-color: rgb(43, 23, 23); */
+    height: 19vh;
+    text-wrap: wrap;
     padding: 2vh 4vw;
-    text-shadow: 0 0 2px #000;
+    color: #383f68;
+    text-shadow: 0 0 2px #919191c0;
+    /* background-color: red; */
+    overflow: hidden;
+    font-size: 1.92vh;
 }
 
 .bobuttons{
@@ -624,7 +640,7 @@ span{
     border-radius: 15px;
     /* background-color: red; */
     height: 70%;
-    filter: drop-shadow( 0 0 3px rgb(194, 194, 194));
+    filter: drop-shadow( 0 0 3px rgba(194, 194, 194, 0.363));
     /* overflow: hidden; */
 }
 
