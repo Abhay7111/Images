@@ -662,7 +662,7 @@ span{
     z-index: 99;
     right: 2%;
     bottom: 2%;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -680,6 +680,6 @@ span{
     align-items: center;
     justify-content: space-around;
     cursor: pointer;
-    font-weight: 600;
-    font-size: 1.2em;
+    font-weight: 500;
+    font-size: 0.86rem;
 }
