@@ -75,6 +75,13 @@ nav>.links {
     /* background-color: yellow; */
 }
 
+#close-for-1{
+    display: none;
+    position: relative;
+    /* background1-color: red; */
+    left: 2vw;
+}
+
 .close>i{
     font-size: 20px;
     border-radius: 50%;

@@ -45,7 +45,18 @@ btn.addEventListener("click",function(){
 
 var navclick = document.querySelector(".design-hover-open")
 var openul = document.querySelector(".open-ul")
+var openul2 = document.querySelector("#close-for-1")
+var navclick2 = document.querySelector("#li4-open")
+// var close1 = document.querySelector("#close")
 
 navclick.addEventListener("click",function(){
     openul.style.display = "block"
+    navclick2.style.display = "none"
+    openul2.style.display = "block"
+})
+
+openul2.addEventListener("click",function(){
+    openul.style.display = "none"
+    openul2.style.display = "none"
+    navclick2.style.display = "block"
 })
