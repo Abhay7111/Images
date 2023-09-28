@@ -698,6 +698,7 @@ span{
     align-items: start;
     justify-content: space-around;
     padding-top: 10vh;
+    flex-wrap: wrap;
 }
 
 .slider{
