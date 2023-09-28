@@ -691,9 +691,9 @@ span{
 }
 
 .page2{
-    width: 1366px;
+    width: 100vw;
     min-height: 100vh;
-    background-color: #8f8f8f;
+    background-color: transparent;
     display: flex;
     align-items: start;
     justify-content: space-around;
@@ -702,26 +702,28 @@ span{
 }
 
 .slider{
-    padding: 5px;
+    padding: 13px;
     width: 25vw;
     border-radius: 15px;
     height: auto;
-    background-color: rgba(185, 30, 30, 0.315);
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     position: relative;
+    gap: 20px;
 }
 
 .slider>.designes{
-    background-color: transparent;
     position: relative;
+    /* padding: 20px;
+    background-color: red; */
     width: 100%;
-    height: auto;
+    min-height: 150px;
     transition: all ease 0.7s;
-    border-radius: 15px;
+    border-radius: 5px;
     overflow: hidden;
 }
 
@@ -752,7 +754,7 @@ span{
     width: 100%;
     height: 55%;
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.685);
+    opacity: 90%;
     bottom: -60%;
     /* display: none; */
     transition: all ease 0.7s;
@@ -762,7 +764,6 @@ span{
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.747);
     bottom: 0%;
     padding: 10px ;
     flex-wrap: wrap;
@@ -773,7 +774,7 @@ span{
 }
 
 .details>.logo{
-    position: relative;
+    position: absolute;
     top: 0%;
     left: 4%;
     width: 40px;
@@ -785,6 +786,7 @@ span{
     justify-content: center;
     border: 1px solid #c4c4c4cb;
     overflow: hidden;
+    z-index: 62;
 }
 
 .details>.logo>a>img{
@@ -794,12 +796,13 @@ span{
 }
 
 .details>.usrnm{
-    position: relative;
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: start;
     padding-left: 10px;
     top: 1.3vh;
+    left: 15%;
     width: 60%;
     height: 20px;
 }
@@ -811,9 +814,11 @@ span{
 }
 
 .details>.discript{
-    background-color: rgba(121, 121, 121, 0.199);
+    background-color: transparent;
     width: 100%;
-    height: 6vh;
+    position: absolute;
+    top:40px;
+    height: 35%;
     border-radius: 1px;
     display: flex;
     align-items: center;
@@ -821,9 +826,8 @@ span{
     flex-wrap: wrap;
     overflow: hidden;
     overflow-y: scroll;
-    position: relative;
-    top: -0.3vh;
     padding: 0 2px;
+    z-index: 60;
 }
 
 .details>.discript::-webkit-scrollbar{
@@ -836,10 +840,13 @@ span{
 
 .details>.buttons{
     display: flex;
+    position: absolute;
+    bottom: 0%;
     justify-content: space-between;
     width: 100%;
     height: auto;
     background-color: transparent;
+    z-index: 61;
 }
 
 .details>.buttons>.like{
@@ -854,6 +861,17 @@ span{
 .details>.buttons>.like>a , .downloads>a , .view>a{
     text-decoration: none;
     font-size: 1.3rem;
+    transition: all 0.8s;
+}
+
+
+.details>.buttons>.like>a>.ri-heart-fill , .downloads>a>.ri-download-fill , .view>a>.ri-eye-fill{
+    transition: all 0.8s;
+}
+
+.details>.buttons>.like>a>.ri-heart-fill:hover , .downloads>a>.ri-download-fill:hover , .view>a>.ri-eye-fill:hover{
+    color: rgba(158, 158, 158, 0.671);
+    transition: all 0.8s;
 }
 
 .details>.buttons>.downloads{
@@ -870,5 +888,4 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
