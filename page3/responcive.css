@@ -223,4 +223,12 @@
     .slider{
         width: 49%;
     }
+
+    .details{
+        background-color: #414141;
+    }
+
+    .details>.usrnm{
+        left: 50px;
+    }
 }
