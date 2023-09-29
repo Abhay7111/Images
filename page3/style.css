@@ -10,7 +10,7 @@
 
 html,body{
     background-color: #000;
-    color: #fff;
+    color: #ec2323;
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
@@ -24,7 +24,7 @@ body::-webkit-scrollbar{
     position: relative;
     width: 100%;
     height: auto;
-    background-color: #E5C3A6;
+    background-color: #b86b3f;
 }
 
 
@@ -374,7 +374,7 @@ span{
 }
 
 .page-customize{
-    position: absolute;
+    position: fixed;
     bottom: 1.5%;
     right: 1.2%;
     width: 25%;
@@ -776,6 +776,7 @@ span{
     align-items: start;
     justify-content: space-around;
     transition: all ease 1.7s;
+    background-color: #b86b3f;
 }
 
 .details>.logo{
