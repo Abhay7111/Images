@@ -264,7 +264,7 @@ cls.addEventListener("click",function(){
 })
 
 relative.addEventListener("click",function(){
-    nvbg.style.position = "absolute"
+    nvbg.style.position = "relative"
 })
 
 fixed.addEventListener("click",function(){
