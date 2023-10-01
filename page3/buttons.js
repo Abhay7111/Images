@@ -44,7 +44,7 @@ const slid22 = document.querySelector("#details22")
 const slid23 = document.querySelector("#details23")
 const slid24 = document.querySelector("#details24")
 
-pagebutton1.addEventListener("click",function(){
+pagebutton1.addEventListener("click", function () {
     main.style.backgroundColor = "#2E4374"
     slid.style.backgroundColor = "#2E4374"
     slid2.style.backgroundColor = "#2E4374"
@@ -72,7 +72,7 @@ pagebutton1.addEventListener("click",function(){
     slid24.style.backgroundColor = "#2E4374"
 })
 
-pagebutton2.addEventListener("click",function(){
+pagebutton2.addEventListener("click", function () {
     main.style.backgroundColor = "#4B527E"
     slid.style.backgroundColor = "#4B527E"
     slid2.style.backgroundColor = "#4B527E"
@@ -100,7 +100,7 @@ pagebutton2.addEventListener("click",function(){
     slid24.style.backgroundColor = "#4B527E"
 })
 
-pagebutton3.addEventListener("click",function(){
+pagebutton3.addEventListener("click", function () {
     main.style.backgroundColor = "#7C81AD"
     slid.style.backgroundColor = "#7C81AD"
     slid2.style.backgroundColor = "#7C81AD"
@@ -128,7 +128,7 @@ pagebutton3.addEventListener("click",function(){
     slid24.style.backgroundColor = "#7C81AD"
 })
 
-pagebutton4.addEventListener("click",function(){
+pagebutton4.addEventListener("click", function () {
     main.style.backgroundColor = "#E5C3A6"
     slid.style.backgroundColor = "#E5C3A6"
     slid2.style.backgroundColor = "#E5C3A6"
@@ -156,7 +156,7 @@ pagebutton4.addEventListener("click",function(){
     slid24.style.backgroundColor = "#E5C3A6"
 })
 
-pagebutton5.addEventListener("click",function(){
+pagebutton5.addEventListener("click", function () {
     main.style.backgroundColor = "#6499E9"
     slid.style.backgroundColor = "#6499E9"
     slid2.style.backgroundColor = "#6499E9"
@@ -184,7 +184,7 @@ pagebutton5.addEventListener("click",function(){
     slid24.style.backgroundColor = "#6499E9"
 })
 
-pagebutton6.addEventListener("click",function(){
+pagebutton6.addEventListener("click", function () {
     main.style.backgroundColor = "#9EDDFF"
     slid.style.backgroundColor = "#9EDDFF"
     slid2.style.backgroundColor = "#9EDDFF"
@@ -212,7 +212,7 @@ pagebutton6.addEventListener("click",function(){
     slid24.style.backgroundColor = "#9EDDFF"
 })
 
-pagebutton7.addEventListener("click",function(){
+pagebutton7.addEventListener("click", function () {
     main.style.backgroundColor = "#A6F6FF"
     slid.style.backgroundColor = "#A6F6FF"
     slid2.style.backgroundColor = "#A6F6FF"
@@ -240,7 +240,7 @@ pagebutton7.addEventListener("click",function(){
     slid24.style.backgroundColor = "#A6F6FF"
 })
 
-pagebutton8.addEventListener("click",function(){
+pagebutton8.addEventListener("click", function () {
     main.style.backgroundColor = "#BEFFF7"
     slid.style.backgroundColor = "#BEFFF7"
     slid2.style.backgroundColor = "#BEFFF7"
@@ -268,7 +268,7 @@ pagebutton8.addEventListener("click",function(){
     slid24.style.backgroundColor = "#BEFFF7"
 })
 
-pagebutton9.addEventListener("click",function(){
+pagebutton9.addEventListener("click", function () {
     main.style.backgroundColor = "#D2E0FB"
     slid.style.backgroundColor = "#D2E0FB"
     slid2.style.backgroundColor = "#D2E0FB"
@@ -296,7 +296,7 @@ pagebutton9.addEventListener("click",function(){
     slid24.style.backgroundColor = "#D2E0FB"
 })
 
-pagebutton10.addEventListener("click",function(){
+pagebutton10.addEventListener("click", function () {
     main.style.backgroundColor = "#D7E5CA"
     slid.style.backgroundColor = "#D7E5CA"
     slid2.style.backgroundColor = "#D7E5CA"
@@ -324,7 +324,7 @@ pagebutton10.addEventListener("click",function(){
     slid24.style.backgroundColor = "#D7E5CA"
 })
 
-pagebutton11.addEventListener("click",function(){
+pagebutton11.addEventListener("click", function () {
     main.style.backgroundColor = "#8EACCD"
     slid.style.backgroundColor = "#8EACCD"
     slid2.style.backgroundColor = "#8EACCD"
@@ -352,7 +352,7 @@ pagebutton11.addEventListener("click",function(){
     slid24.style.backgroundColor = "#8EACCD"
 })
 
-pagebutton12.addEventListener("click",function(){
+pagebutton12.addEventListener("click", function () {
     main.style.backgroundColor = "#141E46"
     slid.style.backgroundColor = "#141E46"
     slid2.style.backgroundColor = "#141E46"
@@ -380,7 +380,7 @@ pagebutton12.addEventListener("click",function(){
     slid24.style.backgroundColor = "#141E46"
 })
 
-pagebutton13.addEventListener("click",function(){
+pagebutton13.addEventListener("click", function () {
     main.style.backgroundColor = "#C70039"
     slid.style.backgroundColor = "#C70039"
     slid2.style.backgroundColor = "#C70039"
@@ -408,7 +408,7 @@ pagebutton13.addEventListener("click",function(){
     slid24.style.backgroundColor = "#C70039"
 })
 
-pagebutton14.addEventListener("click",function(){
+pagebutton14.addEventListener("click", function () {
     main.style.backgroundColor = "#FF6969"
     slid.style.backgroundColor = "#FF6969"
     slid2.style.backgroundColor = "#FF6969"
@@ -436,7 +436,7 @@ pagebutton14.addEventListener("click",function(){
     slid24.style.backgroundColor = "#FF6969"
 })
 
-pagebutton15.addEventListener("click",function(){
+pagebutton15.addEventListener("click", function () {
     main.style.backgroundColor = "#618264"
     slid.style.backgroundColor = "#618264"
     slid2.style.backgroundColor = "#618264"
@@ -464,7 +464,7 @@ pagebutton15.addEventListener("click",function(){
     slid24.style.backgroundColor = "#618264"
 })
 
-pagebutton16.addEventListener("click",function(){
+pagebutton16.addEventListener("click", function () {
     main.style.backgroundColor = "#79AC78"
     slid.style.backgroundColor = "#79AC78"
     slid2.style.backgroundColor = "#79AC78"
@@ -492,7 +492,7 @@ pagebutton16.addEventListener("click",function(){
     slid24.style.backgroundColor = "#79AC78"
 })
 
-pagebutton17.addEventListener("click",function(){
+pagebutton17.addEventListener("click", function () {
     main.style.backgroundColor = "#B0D9B1"
     slid.style.backgroundColor = "#B0D9B1"
     slid2.style.backgroundColor = "#B0D9B1"
@@ -520,7 +520,7 @@ pagebutton17.addEventListener("click",function(){
     slid24.style.backgroundColor = "#B0D9B1"
 })
 
-pagebutton18.addEventListener("click",function(){
+pagebutton18.addEventListener("click", function () {
     main.style.backgroundColor = "#D80032"
     slid.style.backgroundColor = "#D80032"
     slid2.style.backgroundColor = "#D80032"
@@ -548,7 +548,7 @@ pagebutton18.addEventListener("click",function(){
     slid24.style.backgroundColor = "#D80032"
 })
 
-pagebutton19.addEventListener("click",function(){
+pagebutton19.addEventListener("click", function () {
     main.style.backgroundColor = "#E55604"
     slid.style.backgroundColor = "#E55604"
     slid2.style.backgroundColor = "#E55604"
@@ -576,7 +576,7 @@ pagebutton19.addEventListener("click",function(){
     slid24.style.backgroundColor = "#E55604"
 })
 
-pagebutton20.addEventListener("click",function(){
+pagebutton20.addEventListener("click", function () {
     main.style.backgroundColor = "#82A0D8"
     slid.style.backgroundColor = "#82A0D8"
     slid2.style.backgroundColor = "#82A0D8"
