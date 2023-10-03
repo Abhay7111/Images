@@ -25,6 +25,7 @@ body::-webkit-scrollbar{
     width: 100%;
     height: auto;
     background-color: #b86b3f;
+    transition: all ease 1.7s;
 }
 
 
