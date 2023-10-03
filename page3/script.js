@@ -74,7 +74,10 @@ var menu = document.querySelector("#menu")
 var menu2 = document.querySelector("#menu2")
 var links = document.querySelector("#links")
 
+
 // for menu in nav
+
+
 
 menu.addEventListener("click",function(){
     links.style.display = "block"
@@ -490,6 +493,12 @@ pagenight.addEventListener("click",function(){
     slid22.style.backgroundColor = "#000"
     slid23.style.backgroundColor = "#000"
     slid24.style.backgroundColor = "#000"
+    p1color1.style.color = "#000"
+    p1color2.style.color = "#000"
+    p1color3.style.color = "#000"
+    p1colorh1h2.style.color = "#000"
+    clickhr.style.backgroundColor = "#0000009d"
+    clickhr2.style.backgroundColor = "#0000009d"
 })
 
 pagecls.addEventListener("click",function(){
@@ -532,6 +541,12 @@ pageday.addEventListener("click",function(){
     slid22.style.backgroundColor = "rgb(102, 102, 102)"
     slid23.style.backgroundColor = "rgb(102, 102, 102)"
     slid24.style.backgroundColor = "rgb(102, 102, 102)"
+    p1color1.style.color = "#fff"
+    p1color2.style.color = "#fff"
+    p1color3.style.color = "#fff"
+    p1colorh1h2.style.color = "#fff"
+    clickhr.style.backgroundColor = "#ffffff9d"
+    clickhr2.style.backgroundColor = "#ffffff9d"
 })
 pagenight.addEventListener("click",function(){
     nvbg.style.backgroundColor = "#fff"

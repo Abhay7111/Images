@@ -959,3 +959,10 @@ span{
     top: 5px;
     left: 10px;
 }
+
+#p1colorh1-h2{
+    color: rgb(199, 20, 74);
+    animation: colorchng;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}

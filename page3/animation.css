@@ -4,3 +4,12 @@
         color: rgb(191, 191, 191);
     }
 }
+
+@keyframes colorchng{
+    50%{
+        color: rgba(255, 0, 0, 0.479);
+    }
+    70%{
+        color: rgba(146, 0, 0, 0.527);
+    }
+}
