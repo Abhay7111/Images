@@ -498,6 +498,7 @@ pagecls.addEventListener("click",function(){
 
 openpc.addEventListener("click",function(){
     customizep.style.display = "block"
+    coustmise.style.display = "none"
 })
 
 pageday.addEventListener("click",function(){
