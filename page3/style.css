@@ -966,3 +966,30 @@ span{
     animation-duration: 5s;
     animation-iteration-count: infinite;
 }
+
+.page-text{
+    background-color: transparent;
+    width: 50%;
+    position: relative;
+    top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.input-page-text{
+    padding-left: 10px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 6px;
+}
+
+.input-page-text>input{
+    color: red;
+}

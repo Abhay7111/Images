@@ -358,7 +358,7 @@ option {
 .over-t-im{
     position: absolute;
     z-index: 2;
-    background-color: rgba(20, 20, 20, 0.323);
+    background-color: rgba(29, 29, 29, 0.323);
     width: 500px;
     height: 500px;
 }
@@ -367,9 +367,9 @@ option {
     background: #000;
     padding: 1vw;
     position: relative;
-    width: 290px;
-    height: 330px;
-    border-radius: 30px;
+    width: 22%;
+    height: 49vh;
+    border-radius: 10px;
     overflow: hidden;
     box-sizing: border-box;
     display: flex;
