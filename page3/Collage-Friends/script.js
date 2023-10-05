@@ -14,6 +14,7 @@ var btn12 = document.querySelector("#button12")
 var disnone = document.querySelector("#disnone")
 
 var submit = document.querySelector("#submit")
+var mainlink = document.querySelector("#mainlink")
 
 var bt1 = document.querySelector("#bt1")
 var bt2 = document.querySelector("#bt2")
@@ -35,6 +36,7 @@ btn1.addEventListener("click",function(){
 btn2.addEventListener("click",function(){
      disnone.style.display = "none"
      bt2.innerHTML = "2"
+     
 })
 btn3.addEventListener("click",function(){
      disnone.style.display = "none"
@@ -59,6 +61,8 @@ btn7.addEventListener("click",function(){
 btn8.addEventListener("click",function(){
      disnone.style.display = "none"
      bt8.innerHTML = "8"
+     btn2.style.display = "none"
+     pass1.style.display = "block"
 })
 btn9.addEventListener("click",function(){
      disnone.style.display = "none"
@@ -98,5 +102,4 @@ btn12.addEventListener("click",function(){
      bt8.style.display = "none"
      bt9.style.display = "none"
      bt11.style.display = "none"
-
 })

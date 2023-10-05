@@ -132,9 +132,7 @@ form>.name{
      color: #fff;
      border: 1px solid #fff;
      background-color: transparent;
-     display: flex;
-     align-items: center;
-     justify-content: center;
+     text-align: center;
      font-size: 1.5rem;
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      cursor: pointer;
@@ -168,4 +166,34 @@ form>.name{
      position: relative;
      transition: all ease 0.5s;
      top: 2px;
+}
+
+.mainlinks{
+     display: none;
+     font-size: 1.5rem;
+     border: 1px solid #fff;
+     background-color: transparent;
+     margin-top: 12px;
+     border-radius: 10px;
+     padding: 5px 50px;
+     cursor: pointer;
+     transition: all ease 0.5s;
+}
+
+.mainlinks>a{
+     color: #dadada;
+     text-decoration: none;
+}
+
+.pass{
+     background-color: transparent;
+     display: none;
+}
+
+#pass2-1{
+     background-color: transparent;
+}
+
+.hid{
+     /* background-color: red; */
 }
