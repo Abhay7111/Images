@@ -1,0 +1,94 @@
+*{
+     color: beige;
+     margin: 0%;
+     padding: 0%;
+     font-family: cursive;
+     box-sizing: border-box;
+     scroll-behavior: smooth;
+}
+
+html,body{
+     width: 100vw;
+     height: 100vh;
+     background-color: #0e0e0e;
+     overflow: hidden;
+}
+
+.sidenav{
+     width: 15%;
+     height: 100%;
+     position: fixed;
+     background-color: #8f8f8f;
+     border: 1px solid #fff;
+     overflow: hidden;
+}
+
+.main{
+     position: relative;
+     left: 15%;
+     width: 85%;
+     height: 100%;
+     background-color: rgba(114, 114, 114, 0.459);
+     overflow: hidden;
+}
+
+.pages{
+     width: 100%;
+     height: 100%;
+     background-color: transparent;
+     overflow: hidden;
+     overflow-y: scroll;
+}
+
+.pages::-webkit-scrollbar{
+     display: none;
+}
+
+.page1{
+     width: 100%;
+     height: 10%;
+     background-color: rgba(194, 160, 117, 0.61);
+}
+.page2{
+     width: 100%;
+     height: auto;
+     background-color: rgb(51, 51, 51);
+     display: flex;
+     padding: 15px 20px;
+     flex-wrap: wrap;
+     justify-content: space-between;
+}
+
+.page2>.imagesslide{
+     position: relative;
+     border-radius: 15px;
+     width: 22%;
+     min-height: 100px;
+     background-color: red;
+     overflow: hidden;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.page2>.imagesslide>.images{
+     width: 100%;
+     position: relative;
+}
+
+.page2>.imagesslide>.images>.image{
+     width: 100%;
+     overflow: hidden;
+     /* height: 200px; */
+}
+
+.page2>.imagesslide>.images>.image>img{
+     width: 100%;
+     scale: 1.1;
+     transition: all 0.5s;
+}
+
+.page2>.imagesslide:hover>.images>.image>img{
+     scale: 1.2;
+     transition: all 0.5s;
+}
