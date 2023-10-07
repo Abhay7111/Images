@@ -49,56 +49,10 @@ html,body{
      height: 10%;
      background-color: rgba(194, 160, 117, 0.61);
 }
-.page2{
-     width: 100%;
-     height: auto;
-     background-color: rgb(51, 51, 51);
-     display: flex;
-     padding: 15px 20px;
-     flex-wrap: wrap;
-     justify-content: space-between;
-}
 
-.page2>.imagesslide{
-     position: relative;
-     border-radius: 15px;
-     width: 22%;
-     min-height: 100px;
-     background-color: transparent;
-     overflow: hidden;
-     display: flex;
-     flex-direction: column;
-     gap: 15px;
-     align-items: center;
-     justify-content: center;
-     padding: 2px;
-}
-
-.page2>.imagesslide>.images{
-     width: 100%;
-     position: relative;
-     border-radius: 10px;
+.page3{
      overflow: hidden;
 }
 
-.page2>.imagesslide>.images>.image{
-     width: 100%;
-     overflow: hidden;
-     position: relative;
-     height: 340px;
-}
 
-.page2>.imagesslide>.images>.image>img{
-     width: 100%;
-     scale: 1.1;
-     transition: all 0.5s;
-}
 
-.page2>.imagesslide>.images:hover>.image>img{
-     scale: 1.18;
-     transition: all 0.5s;
-}
-
-.image1{
-     min-height: 100%;
-}

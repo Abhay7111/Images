@@ -1,0 +1,11 @@
+@media only screen and (max-width:510px) {
+
+     .pages{
+          background-color: rgb(255, 0, 0);
+     }
+
+     .images{
+          height: 90px;
+     }
+     
+}

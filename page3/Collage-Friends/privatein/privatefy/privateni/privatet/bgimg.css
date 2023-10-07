@@ -9,6 +9,7 @@
      background-size: 120%;
      transition: all 0.5s;
      background-position-x: center;
+     background-position-y: center;
 }
 
 .image1{
